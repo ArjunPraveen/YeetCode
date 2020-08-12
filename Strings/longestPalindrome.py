@@ -1,7 +1,7 @@
 class Solution:
     def checkCentres(self, s, l, r):
         if l>r:
-            return 0;
+            return 0
         while (l>=0 and r<len(s) and s[l]==s[r]):
             l-=1
             r+=1
